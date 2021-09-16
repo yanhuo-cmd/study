@@ -13,5 +13,6 @@ class AreaInfo(models.Model):
 
     def __str__(self):
         # 返回标题
+        # 1111
         return str(self.id)+':'+self.atitle+':'+str(self.aParent)
 
